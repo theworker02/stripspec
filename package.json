@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripspec",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip identifiers and spec tokens for idempotent workflows.",
+  "bin": {
+    "stripspec": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripspec.git"
+  },
+  "homepage": "https://theworker02.github.io/stripspec/",
+  "keywords": [
+    "strip",
+    "spec",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
